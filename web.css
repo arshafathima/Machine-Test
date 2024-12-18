@@ -1,0 +1,426 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+    height: 100vh; /* Full viewport height */
+    background-color: #f8f9fa; /* Light gray background */
+  }
+
+ 
+  .content {
+    width: 100%; 
+    height:500px;
+    background-color: rgb(28, 20, 98);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    position: relative;
+    margin-top: 0;
+  }
+
+  /* Styling for the Family Church heading */
+  .heading {
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    font-family: Arial, sans-serif;
+  }
+
+  .heading .family {
+    font-size: 28px; /* Large font size for Family */
+    font-weight: bold;
+    margin: 0;
+    color: #fffefe; /* Dark color */
+  }
+
+  .heading .church {
+    font-size: 14px; /* Smaller font for Church */
+    color: #fefcfc; /* Light gray color */
+    margin: 0;
+  }
+
+  /* Navigation link container */
+  .nav-links {
+    position: absolute;
+    top: 50px;
+    right: 300px;
+    display: flex;
+    gap: 40px; /* Spacing between links */
+  }
+
+  .nav-links a {
+    text-decoration: none; /* Remove underline */
+    font-size: 14px;
+    color: #fdfeff; /* Blue color for links */
+    transition: color 0.3s; /* Smooth hover effect */
+  }
+
+  .nav-links a:hover {
+    color: #0056b3; /* Darker blue on hover */
+  }
+  .welcome-message {
+    font-size: 20px; /* Medium font size */
+    color: #fffafa;
+    margin-top: 250px;
+    margin-left:250px;
+    
+  }
+
+  /* Button container */
+  .buttons {
+    position:absolute;
+    bottom:80px;
+    left:250px;
+    gap: 15px; 
+  }
+
+  /* Styling for buttons */
+  .button {
+    text-decoration: none; /* Remove underline */
+    font-size: 14px; /* Button font size */
+    padding: 10px 20px;
+    border: 2px solid #fbfcfc; /* Blue border */
+    border-radius: 30px; /* Oval shape */
+    color: #f4f5f6; /* Blue text */
+    font-weight: bold;
+    transition: all 0.3s ease; /* Smooth transition for hover */
+  }
+
+  .button:hover {
+    background-color: #007bff;
+    color: white; /* Change text color to white on hover */
+  }
+  .size{
+    font-size: 15px;
+    color: #f4f5f6;
+  }
+  .bsize{
+    font-size: 50px;
+  }
+
+  .image-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px auto;
+    max-width: 100%;
+    background-color: #f8f9fa;
+  
+   
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add slight shadow */
+  }
+
+  .image-container img {
+    margin-top: 50px;
+    max-width: 35%; /* Ensures the image scales */
+    margin-left:400px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle image shadow */
+    margin-bottom: 50px;
+  }
+
+  .text-container {
+    
+    text-align: left; /* Align text to the left */
+   margin-right: 400px;
+  }
+
+  .text-container h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+   
+  }
+
+  .text-container p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6; 
+    
+    
+
+  }
+
+  .btn-learn-more {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: rgb(253, 253, 255);
+    background-color: #007bff;
+    border-radius: 50px; /* Oval shape for the button */
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+
+  .btn-learn-more:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+
+  .three-headings-section {
+    padding: 50px 0;
+    background-color: #26517c; /* Light background */
+    display: inline-block;
+  }
+
+  /* Styling for each column */
+  .heading-card {
+    text-align: center;
+    
+  }
+
+  .heading-card h2 {
+    font-size: 24px; /* Larger font for the headings */
+    font-weight: bold;
+    color: #fbf6f6;
+    margin-bottom: 15px;
+  }
+
+  .heading-card p {
+    font-size: 16px;
+    color: #fffbfb;
+    line-height: 1.5;
+    
+  }
+
+  .btn-learn-more {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+   
+    border-radius: 30px; /* Oval button */
+    display: inline-block;
+  }
+
+  .btn-learn-more:hover {
+    
+  }
+
+  /* .upcoming-section {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f8f9fa;
+    display :flex
+  }
+
+  .upcoming-section h2 {
+    font-size: 30px; 
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+  }
+
+  
+  .upcoming-img {
+    width: 50%; 
+    height: auto;
+    border-radius: 8px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+  } */
+
+  .image-container {
+   
+  }
+
+  .family-church-section {
+    padding: 50px 0;
+    background-color: #39628a;
+    text-align: center;
+    width: 100%; /* Ensures full screen width */
+    margin: 0; /* Remove default margin */
+  }
+
+  .family-church-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+    
+  }
+
+  .family-church-section p {
+    font-size: 16px;
+    color: #fffcfc;
+    margin-bottom: 30px;
+  }
+
+  .btn-join-team {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 30px;
+    color: white;
+    background-color: #007bff;
+    border-radius: 30px; /* Oval button */
+  }
+
+  .btn-join-team:hover {
+    background-color: #0056b3;
+  }
+
+  .plan-visit-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    width:100%;
+  }
+
+  .plan-visit-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #121212;
+    margin-bottom: 0;
+    max-width: 100%;
+    text-align: left;
+    margin-left: 20px;
+
+  }
+
+  .plan-visit-section p {
+    font-size: 16px;
+    color: #555;
+    margin: 0 20px;
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .btn-view-location {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 30px;
+    color: white;
+    background-color: #007bff;
+    border-radius: 30px; 
+    margin-right: 20px;
+  }
+
+  .btn-view-location:hover {
+    background-color: #0056b3;
+  }
+
+  footer {
+    background-color: #1c3a5a; /* Blue Background */
+    color: white; /* White text */
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  footer p {
+    margin: 0;
+    font-size: 16px;
+  }
+
+  footer a {
+    color: white; /* Link color in footer */
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    text-decoration: underline; /* Underline link on hover */
+  }
+
+
+  .custom-section-container {
+    padding: 50px 0;
+    background-color: #193653;
+    margin-top: 0px;
+  }
+
+  .custom-heading {
+    font-size: 36px;
+    font-weight: bold;
+    color: #fbf7f7;
+    margin-bottom: 20px;
+  }
+
+  .custom-description {
+    font-size: 16px;
+    color: #fff9f9;
+    margin-bottom: 20px;
+  }
+
+  .custom-btn-learn-more {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 30px;
+    color: white;
+    background-color: #007bff;
+    border-radius: 30px; /* Oval button */
+  }
+
+  .custom-btn-learn-more:hover {
+    background-color: #0056b3;
+  }
+
+  .custom-col-item {
+    text-align: left;
+  }
+
+  /* Making the columns responsive */
+  .custom-col-item h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color:#f4f5f6
+  }
+
+  .custom-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  @media (max-width: 767px) {
+    .custom-row {
+      flex-direction: column;
+      align-items: center;
+    }
+    .custom-col-item {
+      margin-bottom: 30px;
+    }
+  }
+
+  .img-section-custom {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+
+  .img-section-custom h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .img-container-custom {
+    margin-bottom: 30px;
+  }
+
+  .img-container-custom img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Flex container to keep images side by side */
+  .row-img-custom {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  @media (max-width: 767px) {
+    .row-img-custom {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
